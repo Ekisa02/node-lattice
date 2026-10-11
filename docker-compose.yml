@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  node-lattice:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./node_lattice.sqlite
+      - WEB3_HTTP_PROVIDER=${WEB3_HTTP_PROVIDER}
+    volumes:
+      - ./:/app

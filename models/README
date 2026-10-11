@@ -1,0 +1,1 @@
+This directory stores saved PyTorch model artifacts (e.g., sample_model.pt). It is gitignored. Use scripts/train_model.py to generate a starter model.

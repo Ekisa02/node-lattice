@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "node-lattice"
+version = "0.1.0"
+description = "Web3 infrastructure tools with FastAPI and PyTorch"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
